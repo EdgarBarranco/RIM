@@ -1,5 +1,6 @@
 # RIM
 This is a simple "Refrigerator Inventory Management" system
+
 ![Screenshot of RIM](/img/RIM.png)
 
 The application was written in python using streamlit and panda.
@@ -13,7 +14,8 @@ streamlit run main.py --server.port=8501 --server.address=0.0.0.0
 ```
 It creates a file “inventory.csv” where the the data is stored.
 
-This application can also be run from docker
+This application can also be run from docker. 
+
 Create the volume:
 ```
 docker volume create inv-app
